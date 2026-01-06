@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family:'Roboto', Courier, monospace;
+    font-size: 0.9rem;
+}
+
+nav {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #9c9ea1;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.menu {
+    width: 80VW;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Paragraph Sec */
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+
+}
+
+.hero {
+    display: flex;
+    width: 80VW;
+    justify-content: space-between;
+}
+
+.hero-txt h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.text {
+    font-weight: 3S00;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width: 6rem;
+    height: 1.8rem;
+    margin-top: -.5rem;
+    border-radius: .4rem;
+
+}
+
+.button a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+/* Body Sec */
+
+.body h1 {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    font-weight: 900;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.contentBoxes {
+    display: flex;
+    margin: 5rem;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+/* Body Two Sec */
+
+.bodyTwo {
+    background-color: #e5e7eb;
+}
+
+
