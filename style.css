@@ -141,6 +141,7 @@ header {
     justify-content: center;
     justify-content: space-around;
     text-align: center;
+    font-weight: 300;
 }
 
 /* Body Two Sec */
@@ -157,13 +158,52 @@ header {
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    font-style: italic;
 }
 
 .author {
     display: flex;
     justify-content: end;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 20px;
 }
 
+.signUpContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5rem;
+    margin: 5rem;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border-radius: 10px;
+}
 
+.paragraph {
+    font-weight: 100;
+}
+
+.headerTwo {
+    font-weight: bold;
+    font-size: large;
+}
+
+.buttonTwo a {
+    display: flex;
+    text-decoration: none;
+    color: #e5e7eb;
+    outline-style: solid;
+    outline-width: 1px;
+    padding: .3rem;
+    border-radius: 5px;
+    width: 6rem;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.copyright {
+    display: flex;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 2rem;
+    justify-content: center;
+}
