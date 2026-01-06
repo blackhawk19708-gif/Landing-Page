@@ -54,7 +54,7 @@ header {
 .hero {
     display: flex;
     width: 80VW;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .hero-txt h1 {
@@ -88,23 +88,82 @@ header {
 .body h1 {
     display: flex;
     justify-content: center;
-    margin: 3rem;
+    margin: 2rem;
     font-weight: 900;
     color: #1F2937;
     font-size: 36px;
 }
 
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.squareOne {
+    display: flex;
+    height: 8rem;
+    width: 8rem;
+    outline-style: solid;
+    outline-color: #3882F6;
+    border-radius: 10px;
+}
+
+.squareTwo {
+    display: flex;
+    height: 8rem;
+    width: 8rem;
+    outline-style: solid;
+    outline-color: #3882F6;
+    border-radius: 10px;
+}
+
+.squareThree {
+    display: flex;
+    height: 8rem;
+    width: 8rem;
+    outline-style: solid;
+    outline-color: #3882F6;
+    border-radius: 10px;
+}
+
+.squareFour {
+    display: flex;
+    height: 8rem;
+    width: 8rem;
+    outline-style: solid;
+    outline-color: #3882F6;
+    border-radius: 10px;
+}
+
 .contentBoxes {
     display: flex;
-    margin: 5rem;
+    margin: 1rem;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;
 }
 
 /* Body Two Sec */
 
 .bodyTwo {
     background-color: #e5e7eb;
+    padding: 10rem;
+}
+
+
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 
